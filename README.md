@@ -1,1 +1,1 @@
-# javaAutoTest
+# javaInterfaceAutoTest
