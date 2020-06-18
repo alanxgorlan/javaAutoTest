@@ -1,9 +1,6 @@
 package com.javatest.firsttry;
 
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 
 public class BasicAnnotation {
@@ -33,4 +30,10 @@ public class BasicAnnotation {
     public void beforeClass(){
         System.out.println("Before");
     }
+
+    @BeforeSuite
+    public void beforeSuite(){ System.out.println("beforeSuite!"); }
+
+    @AfterSuite
+    public void afterSuite(){ System.out.println("AfterSuite"); }
 }
