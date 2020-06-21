@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="SuiteTest">
+    <test name="LoginTest">
+        <classes>
+            <class name="com.javatest.firsttry.suite.SuiteConfig"/>
+            <class name="com.javatest.firsttry.suite.LoginTest"/>
+        </classes>
+    </test>
+    <test name="PayTest">
+        <classes>
+            <class name="com.javatest.firsttry.suite.SuiteConfig"/>
+            <class name="com.javatest.firsttry.suite.PayTest"/>
+        </classes>
+    </test>
+</suite>
