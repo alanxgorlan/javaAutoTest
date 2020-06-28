@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="parametertest">
+
+    <test name="xmlparameters">
+
+        <classes>
+            <parameter name="name" value="Sam"/>
+            <parameter name="age" value="24"/>
+            <class name="com.javatest.firsttry.parameters.ParametersTest"/>
+        </classes>
+    </test>
+
+</suite>
