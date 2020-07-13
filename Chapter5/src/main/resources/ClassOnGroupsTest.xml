@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<suite name = "classongroups">
+
+    <test name="classonstu">
+        <groups>
+            <run>
+                <include name="student"/>
+            </run>
+        </groups>
+
+
+        <classes>
+            <class name="com.javatest.firsttry.groups.ClassonGroups"/>
+            <class name="com.javatest.firsttry.groups.ClassonGroups2"/>
+        </classes>
+
+    </test>
+
+
+</suite>
